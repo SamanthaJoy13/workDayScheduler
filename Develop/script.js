@@ -1,5 +1,5 @@
 var header = $('<header>');
-var currentDate = dayjs().format('DD MMMM YYYY');
+var currentDate = dayjs().format('dddd MMMM DD, YYYY');
 header.text(currentDate);
 $('header').append(header);
 
